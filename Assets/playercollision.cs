@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class playercollision : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	void OnCollisionEnter (Collision collisionInfo) 
+	{
+		if (collisionInfo.collider.tag == "obstacle")
+		{
+			Debug.Log ("We hit an obstacle!");
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }
