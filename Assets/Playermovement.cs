@@ -6,7 +6,6 @@ public class Playermovement : MonoBehaviour {
 
 	public float forwardForce = 2000f;
 
-	// Use this for initialization
 	void FixedUpdate () 
 	{
 		// add a forward force
@@ -21,10 +20,5 @@ public class Playermovement : MonoBehaviour {
 		{
 			rb.AddForce (-500 * Time.deltaTime, 0, 0);
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
