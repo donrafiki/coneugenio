@@ -8,8 +8,7 @@ public class Playermovement : MonoBehaviour {
 
 	void FixedUpdate () 
 	{
-		// add a forward force
-		rb.AddForce (0, 0, forwardForce * Time.deltaTime);
+        rb.AddForce (0, 0, forwardForce * Time.deltaTime);
 
 		if (Input.GetKey("d"))
 		{
@@ -20,5 +19,6 @@ public class Playermovement : MonoBehaviour {
 		{
 			rb.AddForce (-500 * Time.deltaTime, 0, 0);
 		}
+
 	}
 }
