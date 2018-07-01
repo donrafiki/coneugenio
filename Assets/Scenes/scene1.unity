@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 53355278}
   - component: {fileID: 53355279}
   - component: {fileID: 53355280}
-  - component: {fileID: 53355281}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -359,17 +358,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b3f2ed6aebc84da0a806ee24c281f0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &53355281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 53355270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a169a22b63c3416685ac8f067ed961c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &102042529
@@ -2066,14 +2054,14 @@ RectTransform:
   m_GameObject: {fileID: 784750545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9387689, y: 0.938769, z: 0.938769}
   m_Children: []
   m_Father: {fileID: 1621109257}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.4, y: 52.9}
+  m_AnchoredPosition: {x: 10, y: 52.9}
   m_SizeDelta: {x: 293.93, y: 83.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784750547
@@ -2110,11 +2098,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 42
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3129,6 +3117,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1261169719}
+  - component: {fileID: 1261169720}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3149,6 +3138,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261169720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1261169718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7766f4e62fd28438b8b099e423c552c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1280212217
 Prefab:
   m_ObjectHideFlags: 0
